@@ -4,9 +4,9 @@
     
     padding-left: 0;
     
-    }
+}
     
-    .list-image li {
+.list-image li {
     
     position: relative;
     
@@ -14,19 +14,18 @@
     
     line-height: 170%;
     
-    }
+}
     
-    .list-image li:before {
-    
+.list-image li:before {
     content: '';
-    
+
     width: 20px;
     
     height: 20px;
     
     position: absolute;
     
-    background-image: url('dm.png');
+    background-image: url(pikachu.jpg);
     
     background-size: cover;
     
@@ -36,6 +35,48 @@
     
     top: 50%;
     
-    transform: translateY(-50%);
+    transform: translateY(-50%)
     
-    }
+}
+
+.favorite-sites {
+
+        list-style: none;
+        
+        padding-left: 0;
+       
+}
+        
+.favorite-sites li {
+        
+        position: relative;
+        
+        padding-left: 30px;
+        
+        line-height: 170%;
+        
+}
+        
+.favorite-sites li:before {
+        
+    content: '';
+
+    width: 20px;
+    
+    height: 20px;
+    
+    position: absolute;
+    
+    background-image: url(pikachu.jpg);
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    left: 0;
+    
+    top: 50%;
+    
+    transform: translateY(-50%)
+        
+}
